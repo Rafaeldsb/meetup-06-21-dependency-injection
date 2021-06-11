@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "sem-di": "ts-node examples/sem-dependency-injection/main.ts",
+    "com-di": "ts-node examples/com-dependency-injection/main.ts",
+    "scopes": "ts-node examples/scopes/main.ts",
+    "multi": "ts-node examples/multi-injection/main.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "inversify": "^5.1.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  },
+  "license": "MIT"
+}
